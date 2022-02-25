@@ -8,25 +8,12 @@
 
 Every 10 seconds a call is made to the <a href="https://">OpenSky Network API</a> to retrive to longitude and latitude of the plane you are tracking. It then uses folium to plot those points on a map. 
 
-There is one caveat tho, some of PushShift shards (think of them as servers) are sometimes down,
-so you might not get the whole data in those cases. However, you're probably getting more than with Reddit's api, so it's worth it 😁  
-
 # ✨ Features:
-* 🖼️ Download directly linked images and gifs from any public subreddit.
-* 🎞️ Download directly linked videos from any public subreddit.
-* 📅 Download files before and/or after a certain date.
 
 # 🔧 Setup:
 Install the dependencies:
 
 `python -m pip install -r requirements.txt`
-
-Fill in the `config.ini` file as needed. There you can set:
-    
-* Subreddit you'll download your media from.
-* Destination folder. 
-* Posts time frame (optional).
-
 
 # 🖥️ Usage:
 Simply run the file `main.py` and it will start downloading.
