@@ -6,13 +6,7 @@
 
 # 💬 About:
 
-
-How is this achieved? By using the very powerful [PushShift API](https://github.com/pushshift/api). This is important for a number of reasons:
-
-* With Reddit's api, you have a limit of 1000 posts, pushshift is unlimited.
-* In my experience, pushshift is just faster.
-* You don't need a client id and secret, [which is tedious to create](https://praw.readthedocs.io/en/stable/getting_started/authentication.html) and can be hard if it's your first time.
-  * Actually...you don't need any authentication at all!
+Using the <a href="https://">OpenSky Network API</a> 
 
 There is one caveat tho, some of PushShift shards (think of them as servers) are sometimes down,
 so you might not get the whole data in those cases. However, you're probably getting more than with Reddit's api, so it's worth it 😁  
