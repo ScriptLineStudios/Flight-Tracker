@@ -1,8 +1,11 @@
 <h1 align="center">Flight Tracker ✈︎</h1>
 
+<h4 align="center">Get the current location of any plane located on a map</h4>
+  <p align="center">
+  </p>
 
 # 💬 About:
-This script allows you to download directly linked images, videos and gifs from any public subreddit **WITHOUT USING REDDIT'S API**.
+
 
 How is this achieved? By using the very powerful [PushShift API](https://github.com/pushshift/api). This is important for a number of reasons:
 
