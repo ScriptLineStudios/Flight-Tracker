@@ -6,7 +6,7 @@
 
 # 💬 About:
 
-Using the <a href="https://">OpenSky Network API</a> 
+Every 10 seconds a call is made to the <a href="https://">OpenSky Network API</a> to retrive to longitude and latitude of the plane you are tracking. It then uses folium to plot those points on a map. 
 
 There is one caveat tho, some of PushShift shards (think of them as servers) are sometimes down,
 so you might not get the whole data in those cases. However, you're probably getting more than with Reddit's api, so it's worth it 😁  
