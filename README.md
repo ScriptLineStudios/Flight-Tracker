@@ -14,16 +14,4 @@ Install the dependencies:
 `python -m pip install -r requirements.txt`
 
 # 🖥️ Usage:
-Simply run the file `run.py` and the website and traker will start.
-
- ![run_example](img/00.jpg)
-
-# 📚 Dependencies:
-* [**PSAW**](https://github.com/dmarx/psaw): Pushshift.io API Wrapper.
-* [**tqdm**](https://github.com/tqdm/tqdm): Progressbar.
-* [**aiohttp**](https://github.com/aio-libs/aiohttp): Async http client/server framework.
-* [**aiofiles**](https://github.com/Tinche/aiofiles): File support for asyncio.
-
-
-# 📃 License:
-[GNU General Public License v3.0](LICENSE).
+Simply add the ICAO of the flight yout would like to track to the `config.py` file then run the file `run.py` and the website and traker will start.
